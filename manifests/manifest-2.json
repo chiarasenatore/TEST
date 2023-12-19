@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://chiarasenatore.github.io/TEST/manifests/manifest-2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Conti",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://e1be5f7a-1b7c-4214-9a3e-c8dcf165ab9c",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://14f135fe-59b5-4017-9af7-3cc3060c58a5",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2339,
+      "width" : 1653,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://41aaf233-23b8-4ba6-8929-8406d31cd8ee",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/conti-1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/conti-1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2339,
+          "width" : 1653
+        },
+        "on" : "http://14f135fe-59b5-4017-9af7-3cc3060c58a5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://dda0e56c-c15e-41e9-9e9d-ad588760ecb2",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2339,
+      "width" : 1653,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://06684a6f-4abb-4a80-91cc-017ad9e6f0c9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/conti-2-1_202312/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/conti-2-1_202312",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2339,
+          "width" : 1653
+        },
+        "on" : "http://dda0e56c-c15e-41e9-9e9d-ad588760ecb2"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
