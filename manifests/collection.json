@@ -1,0 +1,13 @@
+{
+  "id" : "https://chiarasenatore.github.io/TEST/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in chiarasenatore/TEST project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://chiarasenatore.github.io/TEST/manifests/manifest-2.json",
+    "label" : "Conti"
+  } ]
+}
